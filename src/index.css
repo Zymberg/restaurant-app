@@ -351,3 +351,19 @@ input{
 	transform: scale(.6);
 }
 
+.login-page-btn {
+  color: #fff;
+  padding: 12px 24px;
+  background-image: linear-gradient(45deg, #05033e 0%, #4770c9 100%);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: .4s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 175px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}

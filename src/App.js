@@ -73,6 +73,9 @@ function App() {
       <Route path="/home">
       <div className="page">
         <main>          
+        <form action="http://localhost:3000/">
+          <button className="login-page-btn" >Home</button>
+          </form>
           <section className="menu section">
             <div className="title">
               <img className="logo" src={logo} alt="logo" />
