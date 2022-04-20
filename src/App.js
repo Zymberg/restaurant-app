@@ -31,7 +31,7 @@ function App() {
 
   function showMessage() {
     alert("Item added to cart");
-}
+  }
 
   function onAdd(product) {
     const exist = cartItems.find((x) => x.id === product.id);
